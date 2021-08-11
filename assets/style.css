@@ -1,0 +1,90 @@
+:root {
+    --dot-size: 10px;
+    --text-color: #90795f;
+}
+
+body {
+    background-color: #FDEFEF;
+    color: var(--text-color);
+}
+
+.small-dot {
+    height: var(--dot-size);
+    width: var(--dot-size);
+    border-radius: 50%;
+    border-color: var(--text-color);
+    background-color: var(--text-color);
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    left: -18px;
+    top: 23px;
+}
+
+.time-line-section {
+    position: relative;
+    top: 27px;
+    transform: translateY(-26%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poiret One', cursive;
+}
+
+body,
+p {
+    font-family: 'Courier Prime', monospace;
+}
+
+.blog-entry {
+    border-left: 1px solid var(--text-color);
+}
+
+.blog-card-heading {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-card-body {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-card {
+    background-color: transparent;
+}
+
+.blog-card:hover {
+    transition: .1s;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+a.tag {
+    display: inline-block;
+    overflow-x: scroll;
+    white-space: nowrap;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: white;
+    padding: 4px 10px 0 10px;
+    color: var(--text-color);
+}
+
+a.tag:hover {
+    transition: .1s;
+    text-decoration: underline;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.rounded-4 {
+    border-radius: .75rem;
+}
